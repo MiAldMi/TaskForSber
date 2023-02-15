@@ -1,0 +1,28 @@
+2023-02-15T17:33:30.829+03:00  INFO 2600 --- [main] r.m.t.TaskForSberClientModuleApplication : Starting TaskForSberClientModuleApplication using Java 17.0.6 with PID 2600 (C:\IT\TestTaskForSber\TaskForSberClientModule\target\classes started by пользователь in C:\IT\TestTaskForSber)
+2023-02-15T17:33:30.835+03:00  INFO 2600 --- [main] r.m.t.TaskForSberClientModuleApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-15T17:33:32.446+03:00  INFO 2600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-15T17:33:32.462+03:00  INFO 2600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-15T17:33:32.468+03:00  INFO 2600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-15T17:33:32.631+03:00  INFO 2600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-15T17:33:32.631+03:00  INFO 2600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1684 ms
+2023-02-15T17:33:33.182+03:00 DEBUG 2600 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-15T17:33:33.265+03:00 DEBUG 2600 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2023-02-15T17:33:33.281+03:00 DEBUG 2600 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-15T17:33:33.286+03:00 DEBUG 2600 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-15T17:33:33.387+03:00  INFO 2600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-15T17:33:33.403+03:00  INFO 2600 --- [main] r.m.t.TaskForSberClientModuleApplication : Started TaskForSberClientModuleApplication in 3.329 seconds (process running for 4.63)
+2023-02-15T17:33:36.613+03:00  INFO 2600 --- [main] r.m.t.client.SberClient                  : Thread and Request ID Info: Thread-main, Request ID-4a602cc3-9d79-4cbf-bdb3-6e4c7b02bd35
+2023-02-15T17:33:36.703+03:00 DEBUG 2600 --- [main] o.s.w.r.f.client.ExchangeFunctions       : [422ad5e2] HTTP POST http://localhost:8081/api
+2023-02-15T17:33:37.085+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [422ad5e2] Encoding [SberResponseDto(uuid=4a602cc3-9d79-4cbf-bdb3-6e4c7b02bd35, currentThread=main, lineById=1, timestamp (truncated)...]
+2023-02-15T17:33:37.417+03:00 DEBUG 2600 --- [reactor-http-nio-2] o.s.w.r.f.client.ExchangeFunctions       : [422ad5e2] [1d411e49-1] Response 200 OK
+2023-02-15T17:33:37.474+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [422ad5e2] [1d411e49-1] Decoded [SberResponseDto(uuid=4a602cc3-9d79-4cbf-bdb3-6e4c7b02bd35, currentThread=main, lineById=[1, Goroka A (truncated)...]
+2023-02-15T17:33:38.978+03:00  INFO 2600 --- [main] r.m.t.client.SberClient                  : Thread and Request ID Info: Thread-main, Request ID-b47f8073-72ef-440c-826f-137f8fc6b305
+2023-02-15T17:33:38.980+03:00 DEBUG 2600 --- [main] o.s.w.r.f.client.ExchangeFunctions       : [3e4d40ea] HTTP POST http://localhost:8081/api
+2023-02-15T17:33:38.983+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [3e4d40ea] Encoding [SberResponseDto(uuid=b47f8073-72ef-440c-826f-137f8fc6b305, currentThread=main, lineById=2, timestamp (truncated)...]
+2023-02-15T17:33:39.036+03:00 DEBUG 2600 --- [reactor-http-nio-2] o.s.w.r.f.client.ExchangeFunctions       : [3e4d40ea] [1d411e49-2] Response 200 OK
+2023-02-15T17:33:39.038+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [3e4d40ea] [1d411e49-2] Decoded [SberResponseDto(uuid=b47f8073-72ef-440c-826f-137f8fc6b305, currentThread=main, lineById=[2, Madang A (truncated)...]
+2023-02-15T17:33:41.320+03:00  INFO 2600 --- [main] r.m.t.client.SberClient                  : Thread and Request ID Info: Thread-main, Request ID-33ca1d89-f54f-42fe-9aaa-dc348d924255
+2023-02-15T17:33:41.322+03:00 DEBUG 2600 --- [main] o.s.w.r.f.client.ExchangeFunctions       : [1511d157] HTTP POST http://localhost:8081/api
+2023-02-15T17:33:41.323+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [1511d157] Encoding [SberResponseDto(uuid=33ca1d89-f54f-42fe-9aaa-dc348d924255, currentThread=main, lineById=3, timestamp (truncated)...]
+2023-02-15T17:33:41.360+03:00 DEBUG 2600 --- [reactor-http-nio-2] o.s.w.r.f.client.ExchangeFunctions       : [1511d157] [1d411e49-3] Response 200 OK
+2023-02-15T17:33:41.362+03:00 DEBUG 2600 --- [reactor-http-nio-2] org.springframework.web.HttpLogging      : [1511d157] [1d411e49-3] Decoded [SberResponseDto(uuid=33ca1d89-f54f-42fe-9aaa-dc348d924255, currentThread=main, lineById=[3, Mount Ha (truncated)...]

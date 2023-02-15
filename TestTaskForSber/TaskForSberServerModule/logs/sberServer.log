@@ -1,0 +1,43 @@
+2023-02-15T17:32:54.172+03:00  INFO 9868 --- [main] r.m.T.TaskForSberServerModuleApplication : Starting TaskForSberServerModuleApplication using Java 17.0.6 with PID 9868 (C:\IT\TestTaskForSber\TaskForSberServerModule\target\classes started by пользователь in C:\IT\TestTaskForSber)
+2023-02-15T17:32:54.176+03:00  INFO 9868 --- [main] r.m.T.TaskForSberServerModuleApplication : No active profile set, falling back to 1 default profile: "default"
+2023-02-15T17:32:55.559+03:00  INFO 9868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-15T17:32:55.572+03:00  INFO 9868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-15T17:32:55.577+03:00  INFO 9868 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-15T17:32:55.676+03:00  INFO 9868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-15T17:32:55.676+03:00  INFO 9868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
+2023-02-15T17:32:55.905+03:00 DEBUG 9868 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-02-15T17:32:55.994+03:00 DEBUG 9868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2023-02-15T17:32:56.010+03:00 DEBUG 9868 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-02-15T17:32:56.016+03:00 DEBUG 9868 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-02-15T17:32:56.098+03:00  INFO 9868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-15T17:32:56.113+03:00  INFO 9868 --- [main] r.m.T.TaskForSberServerModuleApplication : Started TaskForSberServerModuleApplication in 2.62 seconds (process running for 3.489)
+2023-02-15T17:33:37.172+03:00  INFO 9868 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-15T17:33:37.173+03:00  INFO 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-15T17:33:37.173+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-02-15T17:33:37.173+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-02-15T17:33:37.174+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-02-15T17:33:37.174+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@25fadf70
+2023-02-15T17:33:37.174+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@252aebbe
+2023-02-15T17:33:37.175+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-02-15T17:33:37.175+03:00  INFO 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-15T17:33:37.185+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api", parameters={}
+2023-02-15T17:33:37.199+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.mialdm.TaskForSber_ServerModule.controller.SberRESTController#getInfoById(SberRequestDto)
+2023-02-15T17:33:37.294+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@7f8abe66]
+2023-02-15T17:33:37.321+03:00  INFO 9868 --- [http-nio-8081-exec-1] r.m.T.service.SberServiceImpl            : Client Info: UUID-4a602cc3-9d79-4cbf-bdb3-6e4c7b02bd35, Thread-main, ID-1, Timestamp-2023-02-15 17:33:36.613
+2023-02-15T17:33:37.386+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-02-15T17:33:37.387+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@7f8abe66]
+2023-02-15T17:33:37.406+03:00 DEBUG 9868 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-02-15T17:33:38.986+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api", parameters={}
+2023-02-15T17:33:38.987+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.mialdm.TaskForSber_ServerModule.controller.SberRESTController#getInfoById(SberRequestDto)
+2023-02-15T17:33:38.988+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@52381218]
+2023-02-15T17:33:38.989+03:00  INFO 9868 --- [http-nio-8081-exec-2] r.m.T.service.SberServiceImpl            : Client Info: UUID-b47f8073-72ef-440c-826f-137f8fc6b305, Thread-main, ID-2, Timestamp-2023-02-15 17:33:38.978
+2023-02-15T17:33:39.032+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-02-15T17:33:39.032+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@52381218]
+2023-02-15T17:33:39.033+03:00 DEBUG 9868 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-02-15T17:33:41.326+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api", parameters={}
+2023-02-15T17:33:41.326+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.mialdm.TaskForSber_ServerModule.controller.SberRESTController#getInfoById(SberRequestDto)
+2023-02-15T17:33:41.327+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@c5daec3]
+2023-02-15T17:33:41.328+03:00  INFO 9868 --- [http-nio-8081-exec-3] r.m.T.service.SberServiceImpl            : Client Info: UUID-33ca1d89-f54f-42fe-9aaa-dc348d924255, Thread-main, ID-3, Timestamp-2023-02-15 17:33:41.32
+2023-02-15T17:33:41.358+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2023-02-15T17:33:41.358+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ru.mialdm.TaskForSber_ServerModule.dto.SberRequestDto@c5daec3]
+2023-02-15T17:33:41.359+03:00 DEBUG 9868 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
